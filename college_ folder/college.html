@@ -1,0 +1,599 @@
+<html>
+    <head>
+        <title>UCE</title>
+        <style>
+            
+            
+            #col1 {
+                background-color: blanchedalmond;
+                color: black;
+                width: 8%;
+                height: 2%;
+                float: left;
+                padding-top: 2%;
+                padding-right: 8%;
+                padding-left: 5%;
+                padding-bottom: 5%;
+                margin-top: 2%;
+                margin-left: 2%;
+                margin-bottom: 2%;
+                margin-right: 2%;
+                border: 3px solid rgb(244, 182, 89);
+                border-radius: 0%;
+                padding-top: 10px;
+                
+            }
+
+            #col2 {
+                background-color: rgb(212, 181, 247);
+                color: black;
+                width: 8%;
+                height: 1%;
+                float: left;
+                padding: 2% 8% 5% 5%;
+                margin: 1% 1% 1% 1%;
+                border: 3px solid rgb(96, 9, 134)   ;
+                border-radius: 0%;
+                padding-top: 10px;
+            }
+
+            #col3  {
+                background-color: rgb(212, 181, 247);
+                color: black;
+                width: 8%;
+                height: 1%;
+                float: left;
+                padding: 2% 8% 5% 5%;
+                margin: 1%;
+                border: 3px solid rgb(96, 9, 134);
+                border-radius: 0%;
+                padding-top: 10px;
+                margin-left: 20px;
+            }
+
+            #col4 {
+                background-color: rgb(212, 181, 247);
+                color: black;
+                width: 8%;
+                height: 1%;
+                float: left;
+                padding: 2% 8% 5% 5%;
+                margin: 1% 1% 1% 1%;
+                border: 3px solid rgb(96, 9, 134)   ;
+                border-radius: 0%;
+                padding-top: 10px;
+            }
+
+            #end {
+                background-color: rgb(95, 7, 115);
+                padding-top: -5%;
+                padding-bottom: 2%;
+            }
+
+            #base {
+                background-color: white;
+                padding-bottom: 23%;
+                margin-left: 10px; 
+            }
+
+            #c1 {
+                background-color: beige;
+                color: black;
+                width: 7%;
+                height: 20%;
+                float: left;
+                padding: 2% 8.5% 7% 5%;
+                margin: 2%; 
+                border-radius: 50%;
+                box-shadow: 5px 5px 15px 5px rgb(184, 184, 180);
+            }
+                
+            #ce {
+                padding-left: 70px;
+                height:370px;
+                width: 600px;
+                float: left;
+            }
+
+            #cr {
+                padding-left: 150px;
+                height:370px;
+                width: 600px;
+                float: left;
+            }
+
+            #location {
+                float: left;
+                background-color: rgb(216, 165, 229);
+                color: black;
+                width: 100%
+            }
+
+            #lo {
+                float: left;
+                padding-left: 195px;
+            }
+
+            #ph {
+                float: left;
+                padding-left: 250px;
+            }
+
+            .tr {
+                width: 20%;
+                height: 460px;
+                background-color:rgb(94, 11, 154);
+                color: white;
+                margin-left: 10px;
+            }
+
+            #lib {
+                width: 500px;
+                height: 460px;
+                margin-left: 330px;
+                margin-top: -460px;
+            }
+
+            #rank {
+                background-color: rgba(231, 211, 246, 0.571);
+                width: 100%;
+                height: 29%;
+                padding-top: 27px;
+            }
+
+            div.gallery-box {
+                width: 100%;
+                height: 420px;
+                background-color: rgb(229, 226, 230);
+                float: left;
+            }
+
+            div.card {
+                width: 340px;
+                padding-left: -20px;
+                text-align: center;
+                margin: 13px;
+                background-color: white;
+                float: left;
+            }
+
+            div.card-text {
+                padding: 10px;
+            }
+
+            div.gallery-text {
+                text-align: center;
+                color: black;
+            }
+
+            div.card:hover img {
+                transform: scale(1.1);
+            }
+
+            div.card-text:hover {
+                /*background-color:rgb(15, 15, 15);
+                color: white;*/
+                transform: scale(1.5);
+            }
+
+            div.tr:hover img {
+                transform: scale(0.7);
+            }
+
+            div.center-of-excellence {
+                width: 100%;
+                height: 210px;
+                background-color: rgb(229, 226, 230);
+                float: left;
+            }
+            
+            div.photo1 {
+                width: 270px; 
+                margin: 13px; 
+                float: left;
+            }
+
+            div.photo2 {
+                width: 270px; 
+                margin: 13px; 
+                float: left;
+            }
+
+            div.photo3 {
+                width: 270px; 
+                margin: 13px; 
+                float: left;
+            }
+
+            div.photo4 {
+                width: 270px; 
+                margin: 13px; 
+                float: left;
+            }
+
+            div.photo5 {
+                width: 270px; 
+                margin: 13px; 
+                float: left;
+            }
+
+            div.photo1:hover {
+                opacity: 0.7;
+            }
+
+            div.photo2:hover {
+                opacity: 0.7;
+            }
+
+            div.photo3:hover {
+                opacity: 0.7;
+            }
+
+            div.photo4:hover {
+                opacity: 0.7;
+            }
+
+            div.photo5:hover {
+                opacity: 0.7;
+            }
+
+            div.empty {
+                background-color: white;
+                width: 100%;
+                height: 40%;
+                float: left;
+
+            }
+
+            div.empty-text {
+                padding: 10px;
+                gap: 20px;
+            }
+
+            div.emt-text1 {
+                border-radius: 50%;
+                width: 190px;
+                background-color: rgb(85, 11, 154);
+                color: white;
+                float: left;
+                height: 190px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                margin-right: 60px;
+                font-size: 25px;
+                
+                
+
+             }
+
+            div.emt-text2 {
+                border-radius: 50%;
+                width: 190px;
+                background-color: rgb(198, 148, 244);
+                color: black;
+                float: left;
+                height: 190px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                margin-right: 56px;
+                font-size: 25px;
+                
+                
+            
+            }
+
+            div.emt-text1:hover {
+                transform: scale(1.1);
+            }
+
+            div.emt-text2:hover {
+                transform: scale(1.1);
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <div><img src="collegep.jpg" width="110px" style="float: left; margin-top: -10px;"><h2 style="color:black" style="float: left; font-size:5%;"><i> &nbsp;<br> University college of Engineering</i></h2>
+            <a href="login1.html"><button style="color: white; background-color: red; margin-top: -70px; margin-right: 95px; float: right;">Login</button></a>
+            <a href="register.html"><button type="button" style="color: white; background-color: red;  margin-top: -70px; margin-right: 20px; float: right;">Register</button></a>
+            </div>
+        <br>
+        <br>
+        <br>
+        <img src="c5.jpg" width="400px" id="ce"><img src="c6.jpg" width="400px" id="cr"><br>
+&nbsp;<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+        <section id="coarse"><b style="font-size: 25px; float: left; margin-left: 15px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            COURSES OFFERED</b><br><br>
+        <i style="font-size: 25px; float: left; text-align: center; justify-content: center; align-items: center; display: flex;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Under Graduate courses</i><br><br>
+            
+            <div id="col3"><h3>B.E computer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;science</h3>
+                <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+            <div id="col4"><h3>B.E.Information&nbsp;And &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology</h3>
+                <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+            <div id="col3"><h3>B.E.Mechanical &nbsp;&nbsp;&nbsp;Engineering</h3>
+                <center style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+            <div id="col3"><h3>B.E.Electronics&nbsp;And &nbsp;&nbsp;&nbsp;Communication</h3>
+                <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+            <div id="col2"><h3>B.E.Electrical&nbsp;And &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Electronics </h3>
+                <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+            <div id="col3"><h3>B.E.Civil Engineering</h3>
+                <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+            <div id="col3"><h3>B.Tech.Artificial &nbsp;&nbsp;&nbsp;&nbsp;Intelligence</h3>
+                <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+            <div id="col3"><h3>B.Tech.Mechatronics</h3>
+                <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br>
+    <br>
+    <br>
+    <div>
+    <i style="font-size: 25px; float: left; text-align: center; justify-content: center; align-items: center; display: flex;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Post Graduate courses</i><br><br>
+        <div id="col3"><h3>M.E Applied &nbsp;&nbsp;Electronics</h3>
+            <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+        <div id="col4"><h3>M.E.computer&nbsp;&nbsp;science</h3>
+            <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+        <div id="col3"><h3>M.E.Data&nbsp;&nbsp;Science</h3>
+            <center style="color: black; background-color: rgb(223, 179, 238);"></center></div>
+        <div id="col3"><h3>M.E.&nbsp;CAD/CAM</h3>
+            <center  style="color: black; background-color: rgb(223, 179, 238);"></center></div></section>
+    </div><br><br><br><br><br><br><br><br><br>
+    
+    <section id="clg"><div class="tr">
+        <br>
+        <center><b><h1>30+</h1></b></center>
+        <center style="font-size: 25px;">centers of excellence</center>
+        
+        <p style="font-size: 15px;">&nbsp;&nbsp;---------------------------------------------------------&nbsp;&nbsp;</p>
+
+        <center><b><h1>2000+</h1></b></center>
+        <center style="font-size: 25px;">research publications</center>
+    
+        <p style="font-size: 15px;">&nbsp;&nbsp;---------------------------------------------------------&nbsp;&nbsp;</p>
+    
+        <center><b><h1>200+</h1></b></center>
+        <center style="font-size: 25px;">Incubatees</center></div>
+
+        <img src="lib.jpg" id="lib">
+<div>
+        <p style="font-size: 20px; margin-left: 900px; margin-top: -340px;"><b>University college of engineering</b><i>, the best engineering college in <br>Chennai was established with the objective of providing quality<br> technical education with adequate industrial exposure than any<br> other 
+            engineering colleges in Chennai, caters the needs of the<br> youth with its innovative teaching methods. <br><br>Apart from interactive classroom scenario, periodic guest lectures by experts from industries and academic background provides thirst to<br> the students to learn and to prepare 
+            for the ready-to-serve industrial requirements with uncompromised professional ethics.</i></p>
+</div></section>
+<br>
+<br>
+<br>
+<br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <section id="ranking"></section>
+         <div id="rank">
+            <img src="nirf.png" style="float: left; margin-left: 80px;" width="200px">
+            <img src="naac.webp" style="float: left; margin-left: 120px; margin-top: -28px;" width="230px">
+            <img src="nba.png" style="float: left; margin-left: 160px;" width="200px">
+            <img src="idea.png" style="float: left; margin-left: 180px; margin-top: -30px;" width="210px">
+         </div></section>
+         <br><br><br>
+    
+    <h1><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Club Activities  <br></b></h1>
+    <div id="base"><div id="c1"><center><h2> &nbsp;&nbsp;Photography &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;club</h2>
+        <br>
+        <center><img src ="pc.png" width="100px" style="margin-right: -35px;"></center>
+                   </center></div>
+    <div id="c1"><center><h2>&nbsp;&nbsp;Astronomy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Club</h2>
+        <center><img src ="as2.png" width="94px" style="margin-right: -35px;"></center>
+        
+           </center></div>
+    <div id="c1"><center><h2>&nbsp;&nbsp;&nbsp;&nbsp;Yogasana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;club</h2>
+        <center><img src ="yoga5.png" width="165px" style="margin-right: -28px; margin-top: -20px;"></center>
+       
+            </center></div>
+    <div id="c1"><center><h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cultural &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;club</h2>
+        <center><img src ="cul.png" width="100px" style="margin-left: 40px;"></center>
+               
+                    </center></div></div>
+        <br>
+</div>
+
+</div>
+<section id="life">
+<div class="gallery-box">
+    <h1 class="galelry-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b style="font-size: 30px;">Campus Life</b></h1>
+        <div class="card">
+            <a href="library.html"><img src="c1.jpeg" style="width: 340px;"></a>
+            <div class="card-text">
+                <p>Library</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="computer.html"><img src="c2.jpg" style="width: 340px; height: 226px;"></a>
+            <div class="card-text">
+                <p>Computer lab</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="auditorium.html"><img src="c3.jpeg" style="width: 340px;"></a>
+            <div class="card-text">
+                <p>Auditorium</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <a href="seminar.html"><img src="c4.jpeg" style="width: 340px; height: 226px;"></a>
+            <div class="card-text">
+                <p>Seminar hall</p>
+            </div>
+        </div>
+
+</div></section>
+
+<br><br><br>
+<br>
+<br>
+<br>
+<section id="center">
+<div class="center-of-excellence">
+<b style="font-size: 30px;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   
+   &nbsp; Center of excellence<br><br></b>
+
+        <div class="photo1">
+            <a href="https://www.infosys.com/" target="_blank"><img src="p1.png" style="width: 200px; margin: 8px;"></a>
+            
+        </div>
+
+        <div class="photo2">
+            <a href="https://www.virtusa.com/" target="_blank"><img src="p2.png" style="width: 230px; border-radius: 50%;"></a>
+            
+        </div>
+
+        <div class="photo3">
+            <a href="https://www.tcs.com/" target="_blank"><img src="p3.png" style="width: 140px; margin-left: 40px"></a>
+            
+        </div>
+
+        <div class="photo4">
+            <a href="https://www.wipro.com/" target="_blank"><img src="p8.webp" style="width: 170px; border-radius: 90%; margin: -10px;"></a>
+            
+        </div>
+
+        <div class="photo5">
+            <a href="https://www.cognizant.com/in/en" target="_blank"><img src="p5.png" style="width: 280px; margin: -20px; margin-left: -60px"></a><br><br><br><br><br><br>&nbsp;<br><br><br><br><br><br>
+            
+        </div>
+
+</div></section>
+
+<section id="Placements">
+<div class="empty">
+    <h1 class="empty-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b style="font-size: 30px;">Placements and Training</b></h1>
+        
+            <div class="emt-text1">
+                <p><b>90%</b><br>
+                Placements</p>
+            </div>
+        
+
+        
+            <div class="emt-text2">
+                <p><b>300+</b><br>
+                Regular recruiters</p>
+            </div>
+       
+
+        
+            <div class="emt-text1">
+                <p><b>29Lakhs</b><br>
+                Per annum-Highest salary</p>
+            </div>
+        
+
+        
+            <div class="emt-text2">
+                <p><b>240+</b><br>
+                Super dream offers</p>
+            </div>
+       
+
+    
+            <div class="emt-text1">
+                <p><b>60+</b><br>
+                International collaboration</p>
+            </div>
+
+            <div class="emt-text2">
+                <p><b>200+</b><br>
+                Internship offers</p>
+            </div></section>
+       
+
+        <br>
+        <br>
+        <br><br><br><br><br><br><br>
+           
+        
+</div>
+
+<br>&nbsp;
+<br>
+<br>
+<br>
+
+<section id="contact">
+<div id="location"><h3 style="float: left;"><img src="collegep.jpg" width="45px" style="float: left;">&nbsp;University college of engineering<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(an autonomous institute)<br>
+&nbsp;Affiliated to anna university<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Approved by AICTE, Newdelhi.</h3>
+
+<h3 id="lo"><svg Sxmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+  </svg>GMS Nagar, Thambaram Taluk,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chengalpattu, Tamil Nadu 600045</h3>
+
+<h3 id="ph"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-telephone-plus-fill" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5"/>
+  </svg> Call us: &nbsp;+91&nbsp; 44 &nbsp;3456 &nbsp;7896<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-Mail:&nbsp; principal@university.com </h3></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+
+    <div id="end">
+        <br>
+        <br>
+        
+        <center><img src="insta.webp" width="50pxl">
+    <img src="what.webp" width="55pxl">
+    <img src="fp.png" width="50pxl"></center>
+    &nbsp;<br>
+    &nbsp;<br>
+    <center><a href="#" style="color: white;">Terms and condition  </a></center>
+    <center><a href="#" style="color: white;">Privacy policy</a></center>
+    <center><a href="#" style="color: white;">about</a></center>
+    <center><a href="#" style="color: white;">contact</a></center>
+    <center><a href="https://www.google.com" target="_blank" style="color: white";>google</a></center>
+    <center><a href="https://login.yahoo.com/?.intl=us" target="_blank" style="color: white";>yahoo</a></center>
+    <center><a href="content.html" target="content" style="color: white";>home</a></center><br>
+    &nbsp;<br>
+    <center style="color: white">&copy;2024, &All rights Reserved.</center></div></section>
+
+            
+    </body>
+</html>
